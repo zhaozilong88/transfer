@@ -15,11 +15,11 @@ transfer -h
 BNB转账
  
 ```
-./transfer -token=BNB -private_key=发送方私钥 -to=接收地址 -amount=数量（wei）
+transfer  -token=BNB -private_key=发送方私钥 -to=接收地址 -amount=数量（wei）
 ```
 
 token转账
 ```
-./transfer -token=合约地址 -private_key=发送方私钥 -to=接收地址 -amount=数量
+transfer  -token=合约地址 -private_key=发送方私钥 -to=接收地址 -amount=数量
 ```
 
